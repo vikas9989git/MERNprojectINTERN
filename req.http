@@ -1,0 +1,35 @@
+GET http://localhost:5000/product/getproducts
+
+###
+ 
+GET http://localhost:5000/user/getusers
+
+###
+POST http://localhost:5000/product/create-product
+Content-Type: application/json
+
+{
+    "pId":115,
+    "pName":"Airpods pro 2 gen",
+    "category":"Earphones",
+    "mrp":14999,
+    "creationDate":"22-02-2022",
+    "expiryDate":"09-03-2034"
+}
+###
+PUT http://localhost:5000/product/update-product/102
+Content-Type: application/json
+
+{
+    "pName":"Lenovo ultra 2",
+    "category":"mobile",
+    "mrp":26999,
+    "creationDate":"25-06-2020",
+    "expiryDate":"03-07-2039"
+}
+
+###
+GET  http://localhost:5000/product/getproduct/103
+
+###
+DELETE http://localhost:5000/product/delete-product/111

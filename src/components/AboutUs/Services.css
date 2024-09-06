@@ -1,0 +1,12 @@
+.productCard{
+    cursor: pointer;
+}
+.productCard:hover{
+    color: rgb(48, 24, 180);
+    border: 1px solid rgb(28, 124, 134) ;
+    font-weight: bold;
+}
+
+.productCard:hover .lead{
+    text-decoration: underline;
+}

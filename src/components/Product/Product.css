@@ -1,0 +1,50 @@
+table{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+tbody tr:hover{
+    background-color: rgb(248, 245, 196);
+
+}
+thead{
+    background-color: rgb(45, 24, 60);
+    color:whitesmoke;
+}
+
+
+
+@media only screen and (max-width: 450px){
+    table{
+        font-size: 0.7rem;
+    }
+}
+tbody  tr td a{
+    text-decoration: none;
+    color: chartreuse;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(255, 24, 24);
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width:451px) and (max-width: 767px){
+    table{
+        font-size: 1rem;
+        
+    }
+}
+  
+/* Media Query for Large screens */
+@media (min-width:768px) and (max-width: 1280px) {
+    table{
+        font-size: 1.5rem;
+        
+    }
+}
+@media only screen and (min-width: 1281px) {
+    table{
+        font-size: 1.5rem;
+        
+    }
+}
